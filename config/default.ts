@@ -1,3 +1,3 @@
 export default {
-  dbUri: 'mongodb://localhost:27017/graphql-auth',
+  dbUri: "MONGODB_URI",
 };

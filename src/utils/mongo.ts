@@ -3,7 +3,7 @@ import config from "config";
 
 export async function connectToMongo() {
   try {
-    await mongoose.connect(config.get("dbUri"));
+    await mongoose.connect(process.env.MONGODB_URI || config.get("dbUri"));
     console.log("Connected to Database");
   } catch (error) {
     console.error(error);
