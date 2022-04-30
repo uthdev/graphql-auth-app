@@ -42,7 +42,13 @@
 Introduce your projects by taking a screenshot, video recordings or a gif. Try to tell us about the solution you built by answering the following:
 
 - Where can I see your demo?
+  -- it is deployed on [heroku](https://uthdev-graphql.herokuapp.com/graphql)
+
+- What is the solution?
+  -- it is a GraphQL server that implements the authentication flow
+
 - What was your experience building it.
+  -- I was able to build it from scratch and deploy it on heroku. I wasn't able to build the frontend
 
 ### Built With
 
@@ -85,4 +91,7 @@ $ npm install
 
 # Run the app
 $ npm start
+
 ```
+
+Then go to [https://uthdev-graphql.herokuapp.com/graphql](https://uthdev-graphql.herokuapp.com/graphql) on your browser or use postman or any other client to access it.
