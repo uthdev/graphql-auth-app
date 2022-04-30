@@ -26,8 +26,14 @@ async function bootstrap() {
 
   // Init express
   const app = express();
+  const PORT = process.env.PORT || 5000;
 
   app.use(cookieParser());
+  app.get('/*', (req, res) => {
+    res.status(200).json({
+      message: 'Welcome to the Graphql auth API',
+    });
+  });
 
   // Create the apollo server
   const server = new ApolloServer({
@@ -54,7 +60,7 @@ async function bootstrap() {
   server.applyMiddleware({ app });
 
   // app.listen on express server
-  app.listen({ port: 5000 }, () => {
+  app.listen(PORT, () => {
     console.log("App is listening on http://localhost:5000");
   });
   connectToMongo();
