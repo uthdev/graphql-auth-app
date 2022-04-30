@@ -69,7 +69,6 @@ Introduce your projects by taking a screenshot, video recordings or a gif. Try t
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 What features did you develop?
-
 - User registration
 - User login
 - User logout
