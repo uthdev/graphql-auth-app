@@ -60,6 +60,19 @@ class UserService {
       throw new ApolloError(e);
     }
 
+    if(input.password) {
+      const salt = await bcrypt.genSalt(10);
+      const hash = bcrypt.hashSync(input.password, salt);
+      input.password = hash;
+    }
+
+    if(input.email) {
+      const user = await UserModel.find().findByEmail(input.email);
+      if(user) {
+        throw new ApolloError("User with this email already exists");
+      }
+    }
+
     const updatedUser = await UserModel.findByIdAndUpdate(user._id, input, { new: true });
 
     return updatedUser;

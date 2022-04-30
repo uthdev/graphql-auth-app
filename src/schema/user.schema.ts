@@ -101,6 +101,15 @@ export class UpdateUserInput {
   @Field(() => String, { nullable: true})
   email?: string;
 
+  @MinLength(6, {
+    message: "password must be at least 6 characters long",
+  })
+  @MaxLength(50, {
+    message: "password must not be longer than 50 characters",
+  })
+  @Field(() => String, { nullable: true })
+  password?: string;
+
   @Field(() => String, { nullable: true })
   bio?: string;
 
