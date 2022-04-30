@@ -3,20 +3,20 @@
 <h1 align="center">{Graphql authentication}</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://investondaba.notion.site/Fullstack-Intermediate-Test-2-c911eab2a18446d4a87eb5ca938f13ad" target="_blank">daba full stack intermediate coding exercise</a>.
+   Solution for a challenge from  <a href="https://investondaba.notion.site/Backend-Intermediate-Test-2-4648d8d0f3e54200aeafc340aadddf8a" target="_blank">daba backend intermediate coding exercise</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href=https://www.loom.com/share/020869a07a384cc8a9adbcfce00e5281">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/uthdev/graphql-auth-app.git">
       Solution
     </a>
     <span> | </span>
-    <a href="https://investondaba.notion.site/Fullstack-Intermediate-Test-2-c911eab2a18446d4a87eb5ca938f13ad">
+    <a href="https://investondaba.notion.site/Backend-Intermediate-Test-2-4648d8d0f3e54200aeafc340aadddf8a">
       Exercise
     </a>
   </h3>
@@ -42,13 +42,14 @@
 Introduce your projects by taking a screenshot, video recordings or a gif. Try to tell us about the solution you built by answering the following:
 
 - Where can I see your demo?
-  -- it is deployed on [heroku](https://uthdev-graphql.herokuapp.com/graphql)
+  - the link to the demo on [loom](https://www.loom.com/share/020869a07a384cc8a9adbcfce00e5281)
+  - it is deployed on [heroku](https://uthdev-graphql.herokuapp.com/graphql)
 
 - What is the solution?
-  -- it is a GraphQL server that implements the authentication flow
+  - it is a GraphQL server that implements the authentication flow
 
 - What was your experience building it.
-  -- I was able to build it from scratch and deploy it on heroku. I wasn't able to build the frontend
+  - I was able to build it from scratch and deploy it on heroku. I wasn't able to build the frontend
 
 ### Built With
 
@@ -69,6 +70,7 @@ Introduce your projects by taking a screenshot, video recordings or a gif. Try t
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 What features did you develop?
+
 - User registration
 - User login
 - User logout
